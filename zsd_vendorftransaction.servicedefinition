@@ -1,0 +1,12 @@
+@EndUserText.label: 'Service definition for id136'
+define service Zapi_VendorFiTransaction_id136 {
+  expose ZI_VENDOR_FI_TRANSACTION as VendorFiTransaction;
+  expose ZI_CONTRACT_LIST as ContractList;
+  expose zi_contract_fi_data as ContractFiData;
+  expose ZI_GOODS_RECEIPTS_ID136 as GoodsReceipts;
+  expose ZI_PAYMENTS_ID136 as Payments;
+  expose ZI_COOP_INVESTMENTS_ID136 as CoopInvestments;
+  expose ZI_SALES_PROMOTIONS_ID136 as SalesPromotions;
+  expose ZI_CLEARING_INVOICES_ID136 as ClearingInvoices;
+  expose ZI_ORDERED_PREPAYMENTS_ID136 as OrderedPrepayments;
+}
